@@ -1,7 +1,7 @@
 body {
     margin: 0;
     background: #16110E;
-    font-size: calc(1em + 1vw);
+    font-size: 24px;
 }
 
 .container {
