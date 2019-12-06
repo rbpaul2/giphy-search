@@ -34,8 +34,8 @@ class GiphySearch extends React.Component {
         this.handleSubmit = this.handleSubmit.bind(this);
     }
 
-    handleChange(event) {
-        this.setState({ value: _.get(event, 'target.value', '') });
+    handleChange(event, value) {
+        this.setState({ value });
     }
 
     handleSubmit(event) {
