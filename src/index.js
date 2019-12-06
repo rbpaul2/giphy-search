@@ -60,6 +60,8 @@ class GiphySearch extends React.Component {
                         <div className={'header'}>
                             <Autocomplete
                                 freeSolo
+                                autoComplete
+                                autoSelect
                                 disableClearable
                                 options={autofills}
                                 inputValue={this.state.value}
